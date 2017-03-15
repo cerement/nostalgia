@@ -1,0 +1,126 @@
+!!---------------------------------------------------------------------------
+!! Port of the Opus OS 1.5 by b0se
+!!    http://www.web9design.com/
+
+!!---------------------------------------------------------------------------
+!! Dimensions
+
+border.Width:				1
+border.color:				#465774
+
+padding.width:				2
+window.handle.width:			4
+window.client.padding.width:		0
+
+menu.overlap:				2
+
+!!---------------------------------------------------------------------------
+!! Fonts
+
+window.active.label.text.font:		Bitstream Vera Sans:bold:pixelsize=11
+window.label.text.justify:		left
+window.active.label.text.color:		#ffffff
+window.inactive.label.text.color:	#b0aca5
+
+menu.items.font:			Bitstream Vera Sans:bold:pixelsize=10
+menu.title.text.justify:		left
+menu.title.text.color:			#ffffff
+menu.title.text.font:			Bitstream Vera Sans:bold:pixelsize=10
+menu.items.text.color:			#494741
+menu.items.disabled.text.color:		#989596
+menu.items.active.text.color:		#e8ebf0
+
+!!---------------------------------------------------------------------------
+!! Menu settings
+
+menu.title.bg:				raised gradient vertical bevel1
+menu.title.bg.color:			#97a9c7
+menu.title.bg.colorTo:			#61799f
+
+menu.items.bg:				flat solid
+menu.items.bg.color:			#edeae4
+
+menu.items.active.bg:			flat solid
+menu.items.active.bg.color:		#55698a
+
+!!---------------------------------------------------------------------------
+!! Window Settings
+
+window.active.title.bg:			raised gradient vertical bevel1
+window.active.title.bg.color:		#97a9c7
+window.active.title.bg.colorTo:		#61799f
+
+window.active.handle.bg:		flat solid
+window.active.handle.bg.color:		#edeae4
+
+window.active.grip.bg:			raised gradient vertical bevel1
+window.active.grip.bg.color:		#97a9c7
+window.active.grip.bg.colorTo:		#61799f
+
+window.active.label.bg:			parentrelative
+
+window.inactive.title.bg:		raised gradient vertical bevel1
+window.inactive.title.bg.color:		#e2dfd8
+window.inactive.title.bg.colorTo:	#c8c4bd
+
+window.inactive.handle.bg:		flat solid
+window.inactive.handle.bg.color:	#dcdad5
+
+window.inactive.grip.bg:		raised gradient vertical bevel1
+window.inactive.grip.bg.color:		#e2dfd8
+window.inactive.grip.bg.color:		#c8c4bd
+
+window.inactive.label.bg:		parentrelative
+
+!!---------------------------------------------------------------------------
+!! Button Settings
+
+window.active.button.unpressed.bg:			flat solid border
+window.active.button.unpressed.image.color:		#a3a09b
+window.active.button.unpressed.bg.color:		#ebe8e3
+window.active.button.unpressed.bg.border.color:		#4c5e7c
+
+window.active.button.hover.bg:				flat solid border
+window.active.button.hover.image.color:			#908b74
+window.active.button.hover.bg.color:			#ebe8e3
+window.active.button.hover.bg.border.color:		#4c5e7c
+
+window.active.button.pressed.bg:			flat solid border
+window.active.button.pressed.image.color:		#ebe8e3
+window.active.button.pressed.bg.color:			#a3a09b
+window.active.button.pressed.bg.border.color:		#4c5e7c
+
+window.active.button.disabled.bg:			flat solid border
+window.active.button.disabled.image.color:		#ebe8e3
+window.active.button.disabled.bg.color:			#ebe8e3
+window.active.button.disabled.bg.border.color:		#4c5e7c
+
+window.active.button.toggled.bg:			flat solid border
+window.active.button.toggled.image.color:		#a3a09b
+window.active.button.toggled.bg.color:			#ebe8e3
+window.active.button.toggled.bg.border.color:		#4c5e7c
+
+window.inactive.button.unpressed.bg:			flat solid border
+window.inactive.button.unpressed.image.color:		#d4d1c7
+window.inactive.button.unpressed.bg.color:		#edeae4
+window.inactive.button.unpressed.bg.border.color:	#adaaa3
+
+window.inactive.button.hover.bg:			flat solid border
+window.inactive.button.hover.image.color:		#908b74
+window.inactive.button.hover.bg.color:			#ebe8e3
+window.inactive.button.hover.bg.border.color:		#adaaa3
+
+window.inactive.button.pressed.bg:			flat solid border
+window.inactive.button.pressed.image.color:		#edeae4
+window.inactive.button.pressed.bg.color:		#d4d1c7
+window.inactive.button.pressed.bg.border.color:		#adaaa3
+
+window.inactive.button.disabled.bg:			flat solid border
+window.inactive.button.disabled.image.color:		#edeae4
+window.inactive.button.disabled.bg.color:		#edeae4
+window.inactive.button.disabled.bg.border.color:	#adaaa3
+
+window.inactive.button.toggled.bg:			flat solid border
+window.inactive.button.toggled.image.color:		#d4d1c7
+window.inactive.button.toggled.bg.color:		#edeae4
+window.inactive.button.toggled.bg.border.color:		#adaaa3

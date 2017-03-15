@@ -1,0 +1,124 @@
+!!---------------------------------------------------------------------------
+!! Colors taken from the interface elements of Doom III
+
+!!---------------------------------------------------------------------------
+!! Dimensions
+
+border.width:				1
+border.color:				#6b9999
+
+padding.width:				2
+window.handle.width:			4
+window.client.padding.width:		3
+
+menu.overlap:				2
+
+!!---------------------------------------------------------------------------
+!! Fonts
+
+window.active.label.text.font:		Bitstream Vera Sans:bold:pixelsize=11
+window.label.text.justify:		left
+window.active.label.text.color:		#6b9999
+window.inactive.label.text.color:	#476666
+
+menu.title.text.font:			Bitstream Vera Sans:bold:pixelsize=10
+menu.title.text.justify:		left
+menu.title.text.color:			#6b9999
+menu.items.font:			Bitstream Vera Sans:bold:pixelsize=10
+menu.items.text.color:			#6b9999
+menu.items.disabled.text.color:		#476666
+menu.items.active.text.color:		#243333
+
+!!---------------------------------------------------------------------------
+!! Menu Settings
+
+menu.title.bg:				flat solid
+menu.title.bg.color:			#243333
+
+menu.items.bg:				flat solid
+menu.items.bg.color:			#243333
+
+menu.items.active.bg:			flat solid
+menu.items.active.bg.color:		#6b9999
+
+!!---------------------------------------------------------------------------
+!! Window Settings
+
+window.active.title.bg:			flat solid
+window.active.title.bg.color:		#243333
+
+window.active.handle.bg:		flat solid
+window.active.handle.bg.color:		#243333
+
+window.active.grip.bg:			flat solid
+window.active.grip.bg.color:		#243333
+
+window.active.label.bg:			parentrelative
+
+window.inactive.title.bg:		flat solid
+window.inactive.title.bg.color:		#243333
+
+window.inactive.handle.bg:		flat solid
+window.inactive.handle.bg.color:	#243333
+
+window.inactive.grip.bg:		flat solid
+window.inactive.grip.bg.color:		#243333
+
+window.inactive.label.bg:		parentrelative
+
+window.active.client.color:		#243333
+window.inactive.client.color:		#243333
+
+!!---------------------------------------------------------------------------
+!! Button Settings
+
+window.active.button.unpressed.bg:			flat solid border
+window.active.button.unpressed.image.color:		#6b9999
+window.active.button.unpressed.bg.color:		#243333
+window.active.button.unpressed.bg.border.color:		#6b9999
+
+window.active.button.hover.bg:				flat solid border
+window.active.button.hover.image.color:			#8ecccc
+window.active.button.hover.bg.color:			#243333
+window.active.button.hover.bg.border.color:		#6b9999
+
+window.active.button.pressed.bg:			flat solid border
+window.active.button.pressed.image.color:		#243333
+window.active.button.pressed.bg.color:			#6b9999
+window.active.button.pressed.bg.border.color:		#6b9999
+
+window.active.button.disabled.bg:			flat solid border
+window.active.button.disabled.image.color:		#243333
+window.active.button.disabled.bg.color:			#243333
+window.active.button.disabled.bg.border.color:		#6b9999
+
+window.active.button.toggled.bg:			flat solid border
+window.active.button.toggled.image.color:		#6b9999
+window.active.button.toggled.bg.color:			#243333
+window.active.button.toggled.bg.border.color:		#6b9999
+
+window.inactive.button.unpressed.bg:			flat solid border
+window.inactive.button.unpressed.image.color:		#6b9999
+window.inactive.button.unpressed.bg.color:		#243333
+window.inactive.button.unpressed.bg.border.color:	#6b9999
+
+window.inactive.button.hover.bg:			flat solid border
+window.inactive.button.hover.image.color:		#8ecccc
+window.inactive.button.hover.bg.color:			#243333
+window.inactive.button.hover.bg.border.color:		#6b9999
+
+window.inactive.button.pressed.bg:			flat solid border
+window.inactive.button.pressed.image.color:		#243333
+window.inactive.button.pressed.bg.color:		#6b9999
+window.inactive.button.pressed.bg.border.color:		#6b9999
+
+window.inactive.button.disabled.bg:			flat solid border
+window.inactive.button.disabled.image.color:		#243333
+window.inactive.button.disabled.bg.color:		#243333
+window.inactive.button.disabled.bg.border.color:	#6b9999
+
+window.inactive.button.toggled.bg:			flat solid border
+window.inactive.button.toggled.image.color:		#6b9999
+window.inactive.button.toggled.bg.color:		#243333
+window.inactive.button.toggled.bg.border.color:		#6b9999
+
