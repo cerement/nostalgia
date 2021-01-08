@@ -1,0 +1,117 @@
+!!---------------------------------------------------------------------------
+!! abs bb shade by cerement -- [absinthe182.com]
+!!---------------------------------------------------------------------------
+!! recreation of the Shade blackbox theme
+!! abs blackbox revivals -- number 11 of in a series of 14
+!!---------------------------------------------------------------------------
+!! Creative Commons GNU GPL-2
+!!    [creativecommons.org/licenses/GPL/2.0]
+!!---------------------------------------------------------------------------
+
+!!---------------------------------------------------------------------------
+!! Dimensions
+
+border.width:				2
+border.color:				#222222
+
+padding.width:				2
+window.handle.width:			3
+window.client.padding.width:		0
+
+menu.overlap:				2
+
+!!---------------------------------------------------------------------------
+!! Fonts
+
+window.active.label.text.font:		Bitstream Vera Sans:pixelsize=11
+window.label.text.justify:		right
+
+menu.title.text.font:			Bitstream Vera Sans:pixelsize=11
+menu.title.text.justify:		right
+
+menu.items.font:			Bitstream Vera Sans:pixelsize=11
+
+!!---------------------------------------------------------------------------
+!! Menu Settings
+
+menu.title.bg:				flat gradient crossdiagonal
+menu.title.bg.color:			#888877
+menu.title.bg.colorTo:			#ffffdd
+menu.title.text.color:			#22221c
+
+menu.items.bg:				flat solid
+menu.items.bg.color:			#666666
+menu.items.bg.colorTo:			#d9d9d9
+menu.items.text.color:			#22221c
+
+menu.items.active.bg:			flat solid
+menu.items.active.bg.color:		#444444
+menu.items.active.text.color:		#ffffff
+
+menu.items.disabled.text.color:		#444444
+
+!!---------------------------------------------------------------------------
+!! Window Settings
+
+window.active.title.bg:			flat solid
+window.active.title.bg.color:		#666666
+
+window.active.label.bg:			flat gradient crossdiagonal
+window.active.label.bg.color:		#888877
+window.active.label.bg.colorTo:		#ffffdd
+window.active.label.text.color:		#22221c
+
+window.active.handle.bg:		flat gradient crossdiagonal
+window.active.handle.bg.color:		#888877
+window.active.handle.bg.colorTo:	#ffffdd
+
+window.active.grip.bg:			flat solid
+window.active.grip.bg.color:		#888888
+
+window.inactive.title.bg:		flat solid
+window.inactive.title.bg.color:		#444444
+
+window.inactive.label.bg:		flat solid
+window.inactive.label.bg.color:		#444444
+window.inactive.label.text.color:	#222222
+
+window.inactive.handle.bg:		flat solid
+window.inactive.handle.bg.color:	#444444
+
+window.inactive.grip.bg:		flat solid
+window.inactive.grip.bg.color:		#444444
+
+!!---------------------------------------------------------------------------
+!! Button Settings
+
+window.active.button.unpressed.bg:			flat solid
+window.active.button.unpressed.bg.color:		#666666
+window.active.button.unpressed.image.color:		#222222
+
+window.active.button.hover.bg:				flat solid
+window.active.button.hover.bg.color:			#7f7f7f
+
+window.active.button.pressed.bg:			flat solid
+window.active.button.pressed.bg.color:			#aaaa8c
+
+window.active.button.disabled.bg:			parentrelative
+window.active.button.disabled.image.color:		#333333
+
+window.active.button.toggled.bg:			flat solid
+window.active.button.toggled.bg.color:			#666666
+
+window.inactive.button.unpressed.bg:			flat solid
+window.inactive.button.unpressed.bg.color:		#444444
+window.inactive.button.unpressed.image.color:		#222222
+
+window.inactive.button.hover.bg:			flat solid
+window.inactive.button.hover.bg.color:			#666666
+
+window.inactive.button.pressed.bg:			flat solid
+window.inactive.button.pressed.bg.color:		#aaaa8c
+
+window.inactive.button.disabled.bg:			parentrelative
+window.inactive.button.disabled.bg.image.color:		#333333
+
+window.inactive.button.toggled.bg:			flat solid
+window.inactive.button.toggled.bg.color:		#444444

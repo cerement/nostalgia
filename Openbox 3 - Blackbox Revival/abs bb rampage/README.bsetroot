@@ -1,0 +1,21 @@
+bsetroot
+
+NOTE: pypanel does NOT like backgrounds set by bsetroot
+
+(getting a bsetroot binary the ugly way)
+
+Download blackbox-0.70.0beta2.tar.gz from SourceForge
+http://prdownloads.sourceforge.net/blackboxwm/blackbox-0.70.0beta2.tar.gz
+
+Unpack the archive
+
+# cd blackbox-0.70.0beta2
+# ./configure
+# make
+# cd util
+# su
+# cp bsetroot /usr/bin
+# exit
+# cd ../..
+# rm -rf blackbox-0.70.0beta2
+

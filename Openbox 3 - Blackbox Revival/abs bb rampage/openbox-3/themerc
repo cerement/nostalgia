@@ -1,0 +1,133 @@
+!!---------------------------------------------------------------------------
+!! abs bb rampage by cerement -- [absinthe182.com]
+!!---------------------------------------------------------------------------
+!! recreation of rampage's Rampage blackbox theme
+!!    rampage (Ryan Butler)
+!! abs blackbox revivals -- number 8 of in a series of 14
+!!---------------------------------------------------------------------------
+!! Creative Commons GNU GPL-2
+!!    [creativecommons.org/licenses/GPL/2.0]
+!!---------------------------------------------------------------------------
+
+!!---------------------------------------------------------------------------
+!! Dimensions
+
+border.width:				1
+border.color:				#000000
+
+padding.width:				2
+window.handle.width:			5
+window.client.padding.width:		0
+
+menu.overlap:				2
+
+!!---------------------------------------------------------------------------
+!! Fonts
+
+window.active.label.text.font:		Bitstream Vera Sans:pixelsize=11
+window.label.text.justify:		center
+
+menu.title.text.font:			Bitstream Vera Sans:pixelsize=11
+menu.title.text.justify:		center
+
+menu.items.font:			Bitstream Vera Sans:pixelsize=11
+
+!!---------------------------------------------------------------------------
+!! Menu Settings
+
+menu.title.bg:				raised gradient diagonal
+menu.title.bg.color:			#bbbbbb
+menu.title.bg.colorTo:			#119999
+menu.title.text.color:			#000000
+
+menu.items.bg:				raised gradient diagonal
+menu.items.bg.color:			#bbbbbb
+menu.items.bg.colorTo:			#cccccc
+menu.items.text.color:			#000000
+
+menu.items.active.bg:			raised gradient diagonal
+menu.items.active.bg.color:		#c4c4c4
+menu.items.active.bg.colorTo:		#bdbdbd
+menu.items.active.text.color:		#008888
+
+menu.items.disabled.text.color:		#999999
+
+!!---------------------------------------------------------------------------
+!! Window Settings
+
+window.active.title.bg:			sunken gradient diagonal
+window.active.title.bg.color:		#cccccc
+window.active.title.bg.colorTo:		#bbbbbb
+
+window.active.label.bg:			flat gradient pyramid interlaced
+window.active.label.bg.color:		#cccccc
+window.active.label.bg.colorTo:		#bbbbbb
+window.active.label.bg.interlace.color:	#aaaaaa
+window.active.label.text.color:		#000000
+
+window.active.handle.bg:		flat gradient diagonal
+window.active.handle.bg.color:		#cccccc
+window.active.handle.bg.colorTo:	#008888
+
+window.active.grip.bg:			flat gradient diagonal interlaced
+window.active.grip.bg.color:		#e5e5e5
+window.active.grip.bg.colorTo:		#666666
+window.active.grip.bg.interlace.color:	#666666
+
+window.inactive.title.bg:		sunken solid
+window.inactive.title.bg.color:		#b3b3b3
+
+window.inactive.label.bg:		flat solid
+window.inactive.label.bg.color:		#b3b3b3
+window.inactive.label.text.color:	#000000
+
+window.inactive.handle.bg:		raised gradient pyramid
+window.inactive.handle.bg.color:	#cccccc
+window.inactive.handle.bg.colorTo:	#008888
+
+window.inactive.grip.bg:		flat gradient diagonal
+window.inactive.grip.bg.color:		#666666
+window.inactive.grip.bg.colorTo:	#e5e5e5
+
+!!---------------------------------------------------------------------------
+!! Button Settings
+
+window.active.button.unpressed.bg:			sunken gradient diagonal
+window.active.button.unpressed.bg.color:		#e5e5e5
+window.active.button.unpressed.bg.colorTo:		#666666
+window.active.button.unpressed.image.color:		#333333
+
+window.active.button.hover.bg:				sunken gradient diagonal
+window.active.button.hover.bg.color:			#ffffff
+window.active.button.hover.bg.colorTo:			#7f7f7f
+
+window.active.button.pressed.bg:			sunken gradient diagonal interlaced
+window.active.button.pressed.bg.color:			#384444
+window.active.button.pressed.bg.colorTo:		#ddffff
+window.active.button.pressed.bg.interlace.color:	#384444
+
+window.active.button.disabled.bg:			parentrelative
+window.active.button.disabled.image.color:		#b3b3b3
+
+window.active.button.toggled.bg:			sunken gradient diagonal
+window.active.button.toggled.bg.color:			#e5e5e5
+window.active.button.toggled.bg.colorTo:		#666666
+
+window.inactive.button.unpressed.bg:			flat solid
+window.inactive.button.unpressed.bg.color:		#b3b3b3
+window.inactive.button.unpressed.image.color:		#b3b3b3
+
+window.inactive.button.hover.bg:			flat solid
+window.inactive.button.hover.bg.color:			#cccccc
+
+window.inactive.button.pressed.bg:			flat gradient diagonal interlaced
+window.inactive.button.pressed.bg.color:		#384444
+window.inactive.button.pressed.bg.colorTo:		#ddffff
+window.inactive.button.pressed.bg.interlace.color:	#384444
+
+window.inactive.button.disabled.bg:			parentrelative
+window.inactive.button.disabled.bg.image.color:		#b3b3b3
+
+window.inactive.button.toggled.bg:			flat solid
+window.inactive.button.toggled.bg.color:		#b3b3b3
+window.inactive.button.toggled.image.color:		#b3b3b3

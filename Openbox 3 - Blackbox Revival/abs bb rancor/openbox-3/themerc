@@ -1,0 +1,124 @@
+!!---------------------------------------------------------------------------
+!! abs bb rancor by cerement -- [absinthe182.com]
+!!---------------------------------------------------------------------------
+!! recreation of the Rancor blackbox theme
+!! abs blackbox revivals -- number 9 of in a series of 14
+!!---------------------------------------------------------------------------
+!! Creative Commons GNU GPL-2
+!!    [creativecommons.org/licenses/GPL/2.0]
+!!---------------------------------------------------------------------------
+
+!!---------------------------------------------------------------------------
+!! Dimensions
+
+border.width:				1
+border.color:				#000000
+
+padding.width:				1
+window.handle.width:			4
+window.client.padding.width:		0
+
+menu.overlap:				2
+
+!!---------------------------------------------------------------------------
+!! Fonts
+
+window.active.label.text.font:		Bitstream Vera Sans:pixelsize=11
+window.label.text.justify:		center
+
+menu.title.text.font:			Bitstream Vera Sans:pixelsize=11
+menu.title.text.justify:		right
+
+menu.items.font:			Bitstream Vera Sans:pixelsize=11
+
+!!---------------------------------------------------------------------------
+!! Menu Settings
+
+menu.title.bg:				raised gradient crossdiagonal
+menu.title.bg.color:			#980806
+menu.title.bg.colorTo:			#000000
+menu.title.text.color:			#ffffff
+
+menu.items.bg:				flat gradient crossdiagonal
+menu.items.bg.color:			#000000
+menu.items.bg.colorTo:			#a8a6a6
+menu.items.text.color:			#ffffff
+
+menu.items.active.bg:			raised gradient crossdiagonal
+menu.items.active.bg.color:		#a8a6a6
+menu.items.active.bg.colorTo:		#000000
+menu.items.active.text.color:		#ffffff
+
+menu.items.disabled.text.color:		#333333
+
+!!---------------------------------------------------------------------------
+!! Window Settings
+
+window.active.title.bg:			flat solid
+window.active.title.bg.color:		#980806
+
+window.active.label.bg:			raised gradient crossdiagonal
+window.active.label.bg.color:		#000000
+window.active.label.bg.colorTo:		#a8a6a6
+window.active.label.text.color:		#ffffff
+
+window.active.handle.bg:		raised gradient crossdiagonal
+window.active.handle.bg.color:		#980806
+window.active.handle.bg.colorTo:	#000000
+
+window.active.grip.bg:			raised gradient crossdiagonal
+window.active.grip.bg.color:		#a8a6a6
+window.active.grip.bg.colorTo:		#000000
+
+window.inactive.title.bg:		flat solid
+window.inactive.title.bg.color:		#000000
+
+window.inactive.label.bg:		flat solid
+window.inactive.label.bg.color:		#000000
+window.inactive.label.text.color:	#999999
+
+window.inactive.handle.bg:		flat solid
+window.inactive.handle.bg.color:	#000000
+
+window.inactive.grip.bg:		flat solid
+window.inactive.grip.bg.color:		#000000
+
+!!---------------------------------------------------------------------------
+!! Button Settings
+
+window.active.button.unpressed.bg:			raised gradient crossdiagonal bevel2
+window.active.button.unpressed.bg.color:		#a8a6a6
+window.active.button.unpressed.bg.colorTo:		#000000
+window.active.button.unpressed.image.color:		#ffffff
+
+window.active.button.hover.bg:				raised gradient crossdiagonal bevel2
+window.active.button.hover.bg.color:			#a8a6a6
+window.active.button.hover.bg.colorTo:			#666666
+
+window.active.button.pressed.bg:			flat gradient crossdiagonal
+window.active.button.pressed.bg.color:			#666666
+window.active.button.pressed.bg.colorTo:		#333333
+
+window.active.button.disabled.bg:			parentrelative
+window.active.button.disabled.image.color:		#000000
+
+window.active.button.toggled.bg:			raised gradient crossdiagonal bevel2
+window.active.button.toggled.bg.color:			#a8a6a6
+window.active.button.toggled.bg.colorTo:		#000000
+
+window.inactive.button.unpressed.bg:			flat solid
+window.inactive.button.unpressed.bg.color:		#000000
+window.inactive.button.unpressed.image.color:		#000000
+
+window.inactive.button.hover.bg:			flat solid
+window.inactive.button.hover.bg.color:			#333333
+
+window.inactive.button.pressed.bg:			flat gradient crossdiagonal
+window.inactive.button.pressed.bg.color:		#666666
+window.inactive.button.pressed.bg.colorTo:		#333333
+
+window.inactive.button.disabled.bg:			parentrelative
+window.inactive.button.disabled.bg.image.color:		#000000
+
+window.inactive.button.toggled.bg:			flat solid
+window.inactive.button.toggled.bg.color:		#000000

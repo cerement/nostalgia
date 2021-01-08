@@ -1,0 +1,123 @@
+!!---------------------------------------------------------------------------
+!! abs bb cthulhain by cerement -- [absinthe182.com]
+!!---------------------------------------------------------------------------
+!! recreation of cthulhain's Cthulhain blackbox theme
+!!    cthulhain (Timothy M. King) -- [lordzork.com]
+!! abs blackbox revivals -- number 2 of in a series of 14
+!!---------------------------------------------------------------------------
+!! Creative Commons GNU GPL-2
+!!    [creativecommons.org/licenses/GPL/2.0]
+!!---------------------------------------------------------------------------
+
+!!---------------------------------------------------------------------------
+!! Dimensions
+
+border.width:				1
+border.color:				#202020
+
+padding.width:				2
+window.handle.width:			4
+window.client.padding.width:		0
+
+menu.overlap:				2
+
+!!---------------------------------------------------------------------------
+!! Fonts
+
+window.active.label.text.font:		Bitstream Vera Sans:pixelsize=11
+window.label.text.justify:		right
+
+menu.title.text.font:			Bitstream Vera Sans:pixelsize=11
+menu.title.text.justify:		center
+
+menu.items.font:			Bitstream Vera Sans:pixelsize=11
+
+!!---------------------------------------------------------------------------
+!! Menu Settings
+
+menu.title.bg:				raised gradient crossdiagonal
+menu.title.bg.color:			#151a22
+menu.title.bg.colorTo:			#7a8290
+menu.title.text.color:			#ffffff
+
+menu.items.bg:				sunken gradient crossdiagonal
+menu.items.bg.color:			#0f1319
+menu.items.bg.colorTo:			#666666
+menu.items.text.color:			#cccccc
+
+menu.items.active.bg:			sunken gradient crossdiagonal
+menu.items.active.bg.color:		#151a22
+menu.items.active.bg.colorTo:		#7a8290
+menu.items.active.text.color:		#ffffff
+
+menu.items.disabled.text.color:		#000000
+
+!!---------------------------------------------------------------------------
+!! Window Settings
+
+window.active.title.bg:			raised gradient diagonal
+window.active.title.bg.color:		#666666
+window.active.title.bg.colorTo:		#0f1319
+
+window.active.label.bg:			sunken gradient crossdiagonal
+window.active.label.bg.color:		#151a22
+window.active.label.bg.colorTo:		#7a8290
+window.active.label.text.color:		#e5e5e5
+
+window.active.handle.bg:		raised gradient diagonal
+window.active.handle.bg.color:		#7f7f7f
+window.active.handle.bg.colorTo:	#0f1319
+
+window.active.grip.bg:			raised gradient diagonal
+window.active.grip.bg.color:		#7a8290
+window.active.grip.bg.colorTo:		#151a22
+
+window.inactive.title.bg:		raised gradient diagonal
+window.inactive.title.bg.color:		#666666
+window.inactive.title.bg.colorTo:	#0f1319
+
+window.inactive.label.bg:		parentrelative
+window.inactive.label.text.color:	#727272
+
+window.inactive.handle.bg:		raised gradient diagonal
+window.inactive.handle.bg.color:	#7f7f7f
+window.inactive.handle.bg.colorTo:	#0f1319
+
+window.inactive.grip.bg:		raised gradient diagonal
+window.inactive.grip.bg.color:		#7f7f7f
+window.inactive.grip.bg.colorTo:	#0f1319
+
+!!---------------------------------------------------------------------------
+!! Button Settings
+
+window.active.button.unpressed.bg:			parentrelative
+window.active.button.unpressed.image.color:		#cccccc
+
+window.active.button.hover.bg:				flat gradient vertical
+window.active.button.hover.bg.color:			#0f1319
+window.active.button.hover.bg.colorTo:			#666666
+
+window.active.button.pressed.bg:			flat gradient vertical
+window.active.button.pressed.bg.color:			#0f1319
+window.active.button.pressed.bg.colorTo:		#7a8290
+
+window.active.button.disabled.bg:			parentrelative
+window.active.button.disabled.image.color:		#000000
+
+window.active.button.toggled.bg:			parentrelative
+
+window.inactive.button.unpressed.bg:			parentrelative
+window.inactive.button.unpressed.image.color:		#727272
+
+window.inactive.button.hover.bg:			flat gradient vertical
+window.inactive.button.hover.bg.color:			#0f1319
+window.inactive.button.hover.bg.colorTo:		#666666
+
+window.inactive.button.pressed.bg:			flat gradient vertical
+window.inactive.button.pressed.bg.color:		#0f1319
+window.inactive.button.pressed.bg.colorTo:		#7a8290
+
+window.inactive.button.disabled.bg:			parentrelative
+window.inactive.button.disabled.bg.image.color:		#000000
+
+window.inactive.button.toggled.bg:			parentrelative
